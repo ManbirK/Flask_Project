@@ -18,8 +18,8 @@ tasks = [
 ]
 
 @app.route("/")
-def hello_world():
-    return "Hello World!"
+def welcome():
+    return "Hello Welcome to my World!"
 
 @app.route("/add-data", methods=["POST"])
 def add_task():
